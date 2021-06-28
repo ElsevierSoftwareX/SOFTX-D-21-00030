@@ -1,0 +1,33 @@
+ParSD
+Tool to design and analyze particle size distributions
+Copyright (C) 2021 Jens Fruhstorfer
+
+This file is part of ParSD.
+
+ParSD is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+ParSD is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+
+See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with ParSD. It can be found in the file 'COPYING' in the Docs-subfolder. If not, see <http://www.gnu.org/licenses/>.
+
+
+
+RELEASE NOTES
+
+Released version 1.2
+09 May 2021
+
+  New features/improvements:
+    - Update of model setting dialogs (Automatic grain size detection and model standard value dialogs)
+    - Documentation was updated to version 1.2
+
+Released version 1.1
+14 Jan 2021
+
+  New features/improvements: 
+    - All output (messages, errors) is written to a logfile 'parsd.log' in the main folder. 
+    - Documentation was updated to version 1.1 including a description of the logfile feature.
+    
+  Fixed issues:
+    - Bug of 'not working procedure to edit more than one material of the same database one after another' was fixed.
+    

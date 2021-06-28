@@ -1,0 +1,28 @@
+ParSD
+Tool to design and analyze particle size distributions
+Copyright (C) 2020 Jens Fruhstorfer
+
+This file is part of ParSD.
+
+ParSD is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+ParSD is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+
+See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with ParSD. It can be found in the file 'COPYING' in the Docs-subfolder. If not, see <http://www.gnu.org/licenses/>.
+
+
+1. Required software
+
+R (https://cloud.r-project.org/)
+PDF-Reader
+
+
+2. Installation notes
+
+Go to subfolder 'Install' and run the starter corresponding to your operating system ('Linux-Starter', 'macOS-Starter.command' or 'Windows-Starter.bat'). For GNU/Linux operating system and macOS, basically, a shell-script is copied to the folder above (./..). In the shell-script, 'Rscript main.R' is executed to startup the application. For windows, the batch-script asks for the Rscript.exe-file, which is in your installation folder of R, possibly in the 'bin' subfolder. After selecting Rscript.exe, a batch-script including the path to Rscript.exe and calling main.R is created in the folder above (.\..).
+
+To start the application, run 'ParSD' on GNU/Linux operating system, 'ParSD.command' on macOS and on Windows 'ParSD.vbs'. With these starters, on GNU/Linux and Windows operating systems, the terminal is invisible. 
+
+Note: It is possible that you are asked if you really want to execute the file/s or mark them as executable. To run the application, it should be marked as executable.
+
+Have a look in the About-Menu for finding more information on the license, citation and so on.
